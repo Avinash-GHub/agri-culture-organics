@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agri-Culture Organics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background-color: #e8f5e9;
+        }
+        .hero h1 {
+            margin: 0;
+        }
+        .section {
+            padding: 20px;
+        }
+        .section h2 {
+            text-align: center;
+            color: #4CAF50;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+        }
+        video {
+            width: 100%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Agri-Culture Organics</h1>
+        <p>Your source for fresh, sustainable, and organic produce!</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#produce">Our Produce</a>
+        <a href="#csa">CSA Boxes</a>
+        <a href="#farmers-market">Farmers Market</a>
+        <a href="#videos">Videos</a>
+    </nav>
+    <section class="hero">
+        <h1>Welcome to Agri-Culture Organics</h1>
+        <p>Discover farm-fresh produce and sustainable living.</p>
+    </section>
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>We are a family-owned organic farm dedicated to providing fresh, pesticide-free vegetables, leafy greens, and herbs. Our mission is to support sustainable farming practices and nourish our community.</p>
+    </section>
+    <section id="produce" class="section">
+        <h2>Our Produce</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="vegetables.jpg" alt="Vegetables">
+                <h3>Organic Vegetables</h3>
+                <p>Carrots, broccoli, tomatoes, and more!</p>
+            </div>
+            <div class="card">
+                <img src="leafy-greens.jpg" alt="Leafy Greens">
+                <h3>Leafy Greens</h3>
+                <p>Spinach, kale, arugula, and lettuce varieties.</p>
+            </div>
+            <div class="card">
+                <img src="herbs.jpg" alt="Herbs">
+                <h3>Fresh Herbs</h3>
+                <p>Basil, mint, cilantro, and rosemary.</p>
+            </div>
+        </div>
+    </section>
+    <section id="csa" class="section">
+        <h2>CSA Box Subscriptions</h2>
+        <p>Enjoy a weekly box of fresh, seasonal produce. Choose your subscription plan and support local organic farming!</p>
+    </section>
+    <section id="farmers-market" class="section">
+        <h2>Retail Booth at Farmers Market</h2>
+        <p>Find us every Saturday at the City Farmers Market. Stop by to get your fresh produce and meet the farmers behind the food!</p>
+    </section>
+    <section id="videos" class="section">
+        <h2>Farm Life in Action</h2>
+        <div class="grid">
+            <video controls>
+                <source src="organic-farming.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video controls>
+                <source src="harvesting.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 Agri-Culture Organics | All rights reserved</p>
+    </footer>
+</body>
+</html>
